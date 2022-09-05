@@ -11,7 +11,7 @@ class MainString implements StringProviderInterface
 
     public function getTop(array $data): array
     {
-        return $sortArray = $this->sort($data);
+        $sortArray = $this->sort($data);
 
         return array_slice($sortArray, 0, 5, true);
     }
