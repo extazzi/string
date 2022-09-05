@@ -1,0 +1,10 @@
+{
+    "require": {
+        "rdlowrey/auryn": "^1.4"
+    },
+    "autoload": {
+        "classmap": [
+            "Services"
+        ]
+    }
+}
